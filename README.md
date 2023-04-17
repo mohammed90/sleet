@@ -34,6 +34,7 @@ We support abstracting PsP Webhook notifications into a common interface.
 | [CyberSource](https://developer.cybersource.com/api-reference-assets/index.html#payments) | ✅ | ❌ |
 | [Checkout.com](https://api-reference.checkout.com/) | ✅ | ❌ |
 | [FirstData](https://docs.firstdata.com/org/gateway/docs/api) | ✅ | ❌ |
+| [MPGS](https://ap-gateway.mastercard.com/api/documentation/integrationGuidelines/index.html) | ✅ | ❌ |
 | [NMI](https://secure.networkmerchants.com/gw/merchants/resources/integration/integration_portal.php#methodology) | ✅ | ❌ |
 | [Orbital](https://developer.jpmorgan.com/products/orbital-api) | ✅ | ❌ |
 | [RocketGate](https://www.rocketgate.com/) | ✅ | ❌ |
@@ -63,6 +64,9 @@ $ export BRAINTREE_PRIVATE_ID="YOUR_BRAINTREE_PRIVATE_KEY"
 $ export CYBERSOURCE_ACCOUNT="YOUR_CYBS_ACCOUNT"
 $ export CYBERSOURCE_API_KEY="YOUR_CYBS_KEY"
 $ export CYBERSOURCE_SHARED_SECRET="YOUR_CYBS_SECRET"
+$ export MPGS_HOST="MPGS_HOST"
+$ export MPGS_MID="YOUR_MPGS_MID"
+$ export MPGS_PASSWORD="YOUR_MPGS_PASSWORD"
 $ export NMI_SECURITY_KEY="YOUR_NMI_PRIVATE_KEY"
 $ export CHECKOUTCOM_TEST_KEY="YOUR_CHECKOUTCOM_PRIVATE_KEY"
 $ export CHECKOUTCOM_TEST_KEY_WITH_PCID="YOUR_CHECKOUTCOM_PRIVATE_KEY_WITH_PROCESSING_CHANNEL_ID"
